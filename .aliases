@@ -1,0 +1,17 @@
+#displays weather for chicago, IL can be changed to other city
+alias weather='curl wttr.in/chicago'
+
+#get Ether price
+alias eth='curl -sSL https://etherscan.io/chart/etherprice?output=csv | tail -n 1 | sed "s|^.*;|$|" | sed "s|\(\.[0-9]$\)|\10|"' 
+
+#get bitcoin price
+alias btc='curl -sSL https://coinbase.com/api/v1/prices/historical | head -n 1 | sed "s|^.*,|$|" | sed "s|\(\.[0-9]$\)|\10|"'
+
+#get ip address
+alias ip='curl ipinfo.io'
+
+#copy shrug guy to clipboard
+alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+
+#watch starwars
+alias starwars="telnet towel.blinkenlights.nl"

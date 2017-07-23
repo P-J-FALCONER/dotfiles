@@ -1,6 +1,15 @@
 # My Dot Files
 ## Installation
-#### do this command
+```
+#clone repo
+git clone https://github.com/P-J-FALCONER/dotfiles.git
+#install script
+cd dotfiles
+bash newComputer.sh
+#remove repo
+cd ..
+rm -r dotfiles
+```
 ## Files
 ### .zshrc
 #### what in this file?!

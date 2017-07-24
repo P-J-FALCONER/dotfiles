@@ -12,7 +12,7 @@
   "esversion": 6,
 
   // curly brackets on all blocks
-  "curly": true
+  "curly": true,
 
   // Force all variable names to use either camelCase style or UPPER_CASE
   // with underscores.

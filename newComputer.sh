@@ -10,6 +10,11 @@ npm install -g jshint
 rm ~/.jshintrc
 mv ./.jshintrc ~/.jshintrc
 
+#install other packages globally
+npm install -g nodemon
+npm install -g n
+
+
 #install git
 brew install git
 

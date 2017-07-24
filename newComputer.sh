@@ -15,13 +15,19 @@ brew install git
 
 #move git aliases
 
-#move global gitignore
-
 #get git config setup
-git config --global user.name "something"
-git config --global user.email "something@something.com"
+echo "Git Global Username?"
+read username
+git config --global user.name "$username"
+echo "Git Global Email?"
+read email
+git config --global user.email "$email"
 mv ./.gitignore ~/.gitignore
 git config --global core.excludesfile ~/.gitignore
+curl -o ./git-credential-osxkeychain https://confluence.atlassian.com/bitbucketserver/files/776639846/776639847/1/1335483205454/git-credential-osxkeychain
+chmod a+x git-credential-osxkeychain
+mv ./git-credential-osxkeychain /usr/local/bin/git-credential-osxkeychain
+git config --global credential.helper osxkeychain
 
 #install oh my zsh
 brew install zsh zsh-completions
@@ -35,3 +41,5 @@ rm -rf fonts
 #move .zshrc file
 rm ~/.zshrc
 mv ./.zshrc ~/.zshrc
+
+echo "DONE!"

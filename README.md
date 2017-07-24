@@ -12,11 +12,27 @@ rm -r dotfiles
 ```
 ## Files
 ### .zshrc
-#### what in this file?!
+```
+
+```
 ### .alias
-#### what in this file?!
+```
+
+```
 ### global git ignore
-### set git config
-### 
+```
+.vim/viminfo
+.vim/swaps/*
+.vim/undo
+.gitconfig.local
+node_modules
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes
+*.pyc
+```
 ## Author
-#### Patrick Falconer
+## [Patrick Falconer](https://github.com/P-J-FALCONER)

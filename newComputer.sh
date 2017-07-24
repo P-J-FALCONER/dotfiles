@@ -20,6 +20,8 @@ brew install git
 #get git config setup
 git config --global user.name "something"
 git config --global user.email "something@something.com"
+mv ./.gitignore ~/.gitignore
+git config --global core.excludesfile ~/.gitignore
 
 #install oh my zsh
 brew install zsh zsh-completions

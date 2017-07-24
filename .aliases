@@ -37,6 +37,7 @@ alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 alias g="git"
 alias v="vim"
+alias chrome="open -a 'Google Chrome'"
 alias emptytrash=" \
     sudo rm -rfv /Volumes/*/.Trashes; \
     rm -rfv ~/.Trash/*; \

@@ -1,8 +1,0 @@
-.gitconfig.local
-node_modules
-.DS_Store
-Desktop.ini
-._*
-Thumbs.db
-.Trashes
-*.pyc
